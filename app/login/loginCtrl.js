@@ -1,7 +1,7 @@
 app.controller('loginCtrl', function ($rootScope, $scope, $location, server, $uibModal) {
 
-
-
+	$scope.email = "analyst7@appleseeds.org.il";
+	$scope.pass = "123";
 
 	$scope.error_password = false;
 	$scope.login = function () {

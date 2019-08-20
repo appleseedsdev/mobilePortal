@@ -22,7 +22,7 @@ app.controller("navbarCtrl", function ($scope, $rootScope, server, $location, $t
 
     $scope.menuIndex = function () {
         if ($location.path() === "/courses") {
-            return "קורסים";
+            return "קורסים - נא לעבור לתצוגת מובייל בדפדפן!";
         } else if ($location.absUrl().includes("staff")) {
             return "עובדים";
         } else if ($location.absUrl().includes("student")) {
